@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h1, p, span {
+    color: #3b4f66;
+    text-align: left;
+    margin: 3vh;
+}
+
+h2 {
+    color: #3b4f66;
+    text-align: center;
+    margin: 3vh;
+}
+
+#secao-vantagens {
+    background-color: #ffffff;
+    padding: 2vh;
+}
+
+#display-vantagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-vantagens {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 15vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#secao-produtos {
+    background-color: #f3f3f3;
+    padding: 2vh;
+}
+
+li {
+    color: #3b4f66;
+    text-align: center;
+}
+
+.produtos {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    font-size: 20px;
+    padding: 3vh;
+}
+
+#display-produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.imagem-seguro {
+    width: 30vw;
+    height: 40vh;
+    display: grid;
+}
+
+#secao-perguntas {
+    text-align: center;
+    background-color: #3b4f66;
+}
+
+.texto-perguntas {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 2vh;
+}
+
+button.accordion {
+    background-color: #94cc6c;
+    color: #444444;
+    font-size: 17px;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    padding: 18px 18px 18px 40px;
+    width: 100%;
+    outline: none;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    color: #444444;
+    background-color: #dddddd;
+}
+
+.show {
+    display: block;
+}
+
+.show {
+    opacity: 1;
+    max-height: 500px;
+}
+
+button.accordion:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: #777777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+}
+
+.botao-saiba-mais {
+    color: #3b4f66;
+    background-color: #94cc6c;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid #dddddd;
+    border-radius: 20px;
+    height: 5vh;
+    width: 10vw;
+    margin: 3vh;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #dddddd;
+    background-color: #3b4f66;
+    transition: 0.4s;
+}
