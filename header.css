@@ -1,0 +1,44 @@
+ul li{ 
+    background-color:#3b4f66;
+    color:white;
+    float: left;
+    width: 250px;
+    height: 40px;
+    display: inline-block; 
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    border-radius: 5px;
+}
+
+ul li:hover{
+   background-color:#94cc6c ;
+}
+   
+ul{
+    padding: 0;
+}
+
+ul ul{
+    display: none;
+}
+
+ul li:hover > ul{
+    display: block;
+
+}
+
+ul ul ul{
+    margin-left: 252px;
+    top: 0px;
+    position: absolute;
+}
+
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: ;
+    height: 40px;
+}
