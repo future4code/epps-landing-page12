@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    height: 20vh;
+}
+
+article {
+    height: 80vh;
+}
+
+footer {
+    height: 20vh;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    align-content: flex-end;
+    justify-items: center;
+    align-items: center;
+}
+
+footer h4 {
+    font-family: "Quicksand", sans-serif;
+    color: #4F6D96;
+}
