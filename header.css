@@ -1,0 +1,83 @@
+ul li{ 
+    background-color:#3b4f66;
+    color:white;
+    float: left;
+    width: 250px;
+    height: 7vh;
+    display: inline-block; 
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    border-radius: 5px;
+}
+
+ul li:hover{
+   background-color:#94cc6c ;
+}
+   
+ul{
+    padding: 0;
+}
+
+ul ul{
+    display: none;
+}
+
+ul li:hover > ul{
+    display: block;
+
+}
+
+ul ul ul{
+    margin-left: 252px;
+    top: 0px;
+    position: absolute;
+}
+
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+    height: 40px;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 4vh;
+    background-color: #3b4f66;  
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+input{
+    color: white;
+    background-color: white;
+    padding: 3px;
+    border: none;
+    outline: none;
+    width: 300px;
+    border-radius: 5px;
+    transition: all 0.4 linear;
+}
+
+label{
+    color:o#94cc6c;
+    padding: 1.5vh;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .1s linear;
+    
+}
+
+div:hover > input{
+    padding: 5px;
+    width: 300px;
+}
+
+div:hover > label{
+    background-color: #94cc6c;
+}
