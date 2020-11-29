@@ -169,3 +169,27 @@ button:hover {
     background-color: #3b4f66;
     transition: 0.4s;
 }
+
+@media screen and (max-width: 400px) {
+    li .navegacao {
+        max-width: 1000px;
+    }
+    
+    #secao-perguntas {
+        min-width: 230px;
+    }
+    
+    .botao-saiba-mais {
+        min-width: 100px;
+    }
+
+    #display-produtos {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-end: span 1;
+    }
+
+    .imagem-seguro {
+        width: 300px;
+    }
+}
