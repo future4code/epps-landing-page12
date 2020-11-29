@@ -12,10 +12,21 @@
     max-width: 100%;
 }
 
-#principal li,
-#principal ul {
-    display: inline-block;
+#principal a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
 }
+
+#principal li, #principal ul {
+    display: inline-block; 
+}
+
+.navegacao {
+    margin: 3vh;
+    padding: 0;
+}
+
 
 a {
     text-decoration: none;
