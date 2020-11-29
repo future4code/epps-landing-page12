@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #f3f3f3;
+    font-family: 'Quicksand', sans-serif;
 }
 
 form{
@@ -10,6 +11,35 @@ form{
     max-width: 500px;
     margin: 0 auto;
     padding: 5px 10px 10px 10px;
+}
+
+#principal {
+    background: #3b4f66;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+#principal a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#principal li, #principal ul {
+    display: inline-block; 
+}
+
+.navegacao {
+    padding-top: 3px;
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+
+a {
+    text-decoration: none;
 }
 
 h1{
