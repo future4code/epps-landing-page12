@@ -117,14 +117,14 @@ li {
 
 .texto-perguntas {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
     padding: 2vh;
 }
 
 button.accordion {
     background-color: #94cc6c;
     color: #444444;
-    font-size: 19px;
+    font-size: 15px;
     text-align: left;
     border: none;
     cursor: pointer;
@@ -150,7 +150,7 @@ button.accordion.active, button.accordion:hover {
 
 button.accordion:after {
     content: '\02795'; 
-    font-size: 13px;
+    font-size: 10px;
     color: #777777;
     float: right;
     margin-left: 5px;
