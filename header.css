@@ -1,59 +1,84 @@
-ul li{ 
-    background-color:#3b4f66;
-    color:white;
-    float: left;
-    width: 250px;
-    height: 7vh;
-    display: inline-block; 
-    text-align: center;
-    line-height: 40px;
-    position: relative;
-    border-radius: 5px;
-    
-  
-}
-
-ul li:hover{
-   background-color: #94cc6c;
-}
-   
-ul{
+body{
+    background: #dedede;
+    font-family:  Arial;
+    margin: 0;
     padding: 0;
 }
 
-ul ul{
+.drop{
+    margin: 0 auto;
+}
+nav{
+    height: 100px;
+    background:#3b4f66;
+    
+
+}
+
+.logo{
+    padding: 5px 0 0 80px;
+    width: 200px;
+    height: 90px;
+}
+nav ul{
+    padding:0;
+    margin: 0;
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    background:#3b4f66;
+    position: relative;
+    list-style: none;
+    display: inline-block
+}
+
+nav ul li a{
+    display: block;
+    padding: 5px 15px;
+    color:#94cc6c;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+    
+nav ul li a:hover{
+    background: #222222
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60xp;
     display: none;
 }
 
-ul li:hover > ul{
-    display: block;
-
+nav ul li:hover > ul{
+    display: block
+}
+nav ul ul li{
+    width: 200px;
+    float:none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 250px;
 }
 
-ul ul ul{
-    margin-left: 252px;
-    top: 0px;
-    position: absolute;
+div:hover > input{
+    padding: 5px;
+    width: 300px;
 }
 
-.search-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-   
-    height: 40px;
-}
-div{
-    display: flex;
-    justify-content: absolute;
-    align-items: center;
-    width: auto;
-    height: 4vh;
-    background-color: #3b4f66;  
-    padding:10px 10px;
-    border-radius: 5px;
-    margin-right: 250px;
+label{
+    color:o#94cc6c;
+    padding: 1.5vh;
+    border-radius:40%;
+    cursor: pointer;
+    transition: all .1s linear;
 }
 
 input{
@@ -66,22 +91,3 @@ input{
     border-radius: 5px;
     transition: all 0.4 linear;
 }
-
-label{
-    color:o#94cc6c;
-    padding: 1.5vh;
-    border-radius:30%;
-    cursor: pointer;
-    transition: all .1s linear;
-    
-}
-
-div:hover > input{
-    padding: 5px;
-    width: 300px;
-}
-
-div:hover > label{
-    background-color: #94cc6c;
-}
-
