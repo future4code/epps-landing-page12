@@ -1,0 +1,93 @@
+body{
+    background: #dedede;
+    font-family:  Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.drop{
+    margin: 0 auto;
+}
+nav{
+    height: 100px;
+    background:#3b4f66;
+    
+
+}
+
+.logo{
+    padding: 5px 0 0 80px;
+    width: 200px;
+    height: 90px;
+}
+nav ul{
+    padding:0;
+    margin: 0;
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    background:#3b4f66;
+    position: relative;
+    list-style: none;
+    display: inline-block
+}
+
+nav ul li a{
+    display: block;
+    padding: 5px 15px;
+    color:#94cc6c;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+    
+nav ul li a:hover{
+    background: #222222
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60xp;
+    display: none;
+}
+
+nav ul li:hover > ul{
+    display: block
+}
+nav ul ul li{
+    width: 200px;
+    float:none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 250px;
+}
+
+div:hover > input{
+    padding: 5px;
+    width: 300px;
+}
+
+label{
+    color:o#94cc6c;
+    padding: 1.5vh;
+    border-radius:40%;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+input{
+    color: white;
+    background-color: white;
+    padding: 4px;
+    border: none;
+    outline: none;
+    width: 300px;
+    border-radius: 5px;
+    transition: all 0.4 linear;
+}
