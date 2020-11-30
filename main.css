@@ -4,106 +4,30 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-/* ul li { 
-    background-color:#3b4f66;
-    font-size: 15px;
-    color:white;
-    float: left;
-    width: 250px;
-    height: 7vh;
-    display: inline-block; 
-    text-align: center;
-    line-height: 10px;
-    position: relative;
-    border-radius: 5px;
-    padding: 20px;
+
+#logo {
+    margin-left: 7vh;
+    height: 8vh;
 }
 
-ul ul {
-    display: none;
-    
+
+#secao {
+    background-color: #3b4f66;
+    height: 15vh;
+    font-size: 20px;
+    padding-top: 5vh;
 }
 
-ul li:hover{
-    background-color: #94cc6c;
- }
-    
- ul{
-     padding: 0;
- }
- 
- ul ul{
-     display: none;
- }
- 
- ul li:hover > ul{
-     display: block;
- 
- }
- 
- ul ul ul{
-     margin-left: 252px;
-     top: 0px;
-     position: absolute;
- }
- 
- .search-box{
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%,-50%);
-    
-     height: 40px;
- }
- div{
-     display: flex;
-     justify-content: absolute;
-     align-items: center;
-     width: auto;
-     height: 4vh;
-     background-color: #3b4f66;  
-     padding:10px 10px;
-     border-radius: 5px;
-     margin-right: 250px;
- }
- 
- input{
-     color: white;
-     background-color: white;
-     padding: 4px;
-     border: none;
-     outline: none;
-     width: 300px;
-     border-radius: 5px;
-     transition: all 0.4 linear;
- }
- 
- label{
-     color:o#94cc6c;
-     padding: 1.5vh;
-     border-radius:30%;
-     cursor: pointer;
-     transition: all .1s linear;
-     
- }
- 
- div:hover > input{
-     padding: 5px;
-     width: 300px;
- }
- 
- div:hover > label{
-     background-color: #94cc6c;
- }
 
- .display-menu {
-     display: inline-grid;
-     grid-template-columns: repeat(4, 1fr);
-     grid-template-rows: repeat(6, 1fr);
- } */
+.lista-menu {
+    display: inline;
+    margin-left: 12vw;
+    color: #ffffff;
+
+}
 
 #principal {
-    background:#3b4f66;
+    background: #94cc6c;
     height: 10vh;
     text-align: center;
     align-items: center;
